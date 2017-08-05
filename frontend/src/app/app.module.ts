@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { AngularFontAwesomeModule } from 'angular-font-awesome/angular-font-awesome';
+
 import { AppComponent } from './app.component';
 import { HeaderNav } from './header-nav.component';
 
@@ -10,7 +12,8 @@ import { HeaderNav } from './header-nav.component';
     HeaderNav
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
